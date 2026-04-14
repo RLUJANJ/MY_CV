@@ -1,1 +1,227 @@
-<h1>Hello</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV – Rubén Luján Juarico</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; color: #222; background: #fff; }
+
+  .page { width: 210mm; min-height: 297mm; margin: 0 auto; padding: 12mm 14mm; }
+
+  /* Header */
+  .header { display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 3px solid #1a5276; padding-bottom: 8px; margin-bottom: 10px; }
+  .header-left h1 { font-size: 24px; font-weight: 700; color: #1a5276; letter-spacing: 1px; }
+  .header-left h2 { font-size: 11px; font-weight: 400; color: #555; margin-top: 2px; letter-spacing: 0.5px; text-transform: uppercase; }
+  .header-right { text-align: right; font-size: 10px; color: #444; line-height: 1.7; }
+  .header-right a { color: #1a5276; text-decoration: none; }
+
+  /* Summary */
+  .summary { background: #eaf2f8; border-left: 4px solid #1a5276; padding: 7px 10px; margin-bottom: 12px; font-size: 10.5px; line-height: 1.6; color: #333; }
+
+  /* Section */
+  .section { margin-bottom: 11px; }
+  .section-title { font-size: 12px; font-weight: 700; color: #1a5276; text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid #aed6f1; padding-bottom: 2px; margin-bottom: 7px; }
+
+  /* Skills grid */
+  .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+  .skill-group h4 { font-size: 10px; font-weight: 700; color: #555; margin-bottom: 3px; text-transform: uppercase; }
+  .tags { display: flex; flex-wrap: wrap; gap: 3px; }
+  .tag { background: #d6eaf8; color: #1a5276; border-radius: 3px; padding: 1px 6px; font-size: 9.5px; font-weight: 600; }
+
+  /* Experience */
+  .job { margin-bottom: 10px; }
+  .job-header { display: flex; justify-content: space-between; align-items: baseline; }
+  .job-title { font-size: 12px; font-weight: 700; color: #222; }
+  .job-company { font-size: 11px; color: #1a5276; font-weight: 600; }
+  .job-location { font-size: 10px; color: #777; }
+  .job-date { font-size: 10px; color: #777; white-space: nowrap; }
+  .job ul { margin-top: 4px; padding-left: 14px; }
+  .job ul li { margin-bottom: 2px; line-height: 1.5; font-size: 10.5px; }
+
+  /* Education */
+  .edu-header { display: flex; justify-content: space-between; }
+  .edu-degree { font-weight: 700; font-size: 11.5px; }
+  .edu-school { color: #1a5276; font-weight: 600; font-size: 10.5px; }
+  .edu-desc { font-size: 10px; color: #555; margin-top: 3px; line-height: 1.5; }
+
+  /* Languages */
+  .lang-row { display: flex; gap: 16px; }
+  .lang-item { display: flex; align-items: center; gap: 5px; font-size: 10.5px; }
+  .lang-badge { background: #1a5276; color: #fff; border-radius: 3px; padding: 1px 7px; font-size: 9.5px; font-weight: 600; }
+
+  /* Print */
+  @media print {
+    body { background: #fff; }
+    .page { padding: 10mm 13mm; margin: 0; width: 100%; }
+    .no-print { display: none; }
+  }
+
+  /* Print button */
+  .print-btn { display: block; margin: 10px auto; padding: 8px 22px; background: #1a5276; color: #fff; border: none; border-radius: 4px; font-size: 13px; cursor: pointer; }
+  .print-btn:hover { background: #154360; }
+</style>
+</head>
+<body>
+
+
+
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-left">
+      <h1>RUBÉN LUJÁN JUARICO</h1>
+      <h2>Sr. IT Development Analyst &amp; Full-Stack Developer</h2>
+    </div>
+    <div class="header-right">
+      📍 Chihuahua City, Chihuahua<br>
+      📞 (639) 167 60 37<br>
+      ✉️ <a href="mailto:rubluj@hotmail.com">rubluj@hotmail.com</a><br>
+      🔗 <a href="#">LinkedIn: Ruben Lujan J.</a>
+    </div>
+  </div>
+
+  <!-- SUMMARY -->
+  <div class="summary">
+    Results-driven IT Development Analyst with proven global operations experience implementing enterprise-level solutions across multiple international facilities, including hands-on system deployments in Portugal. Expert in full-stack development with versatile technology adaptation skills spanning multiple programming languages and frameworks. Demonstrated track record of transforming complex business requirements into scalable technological solutions that drive operational efficiency across global plant operations.
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section">
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h4>Backend</h4>
+        <div class="tags">
+          <span class="tag">C#</span>
+          <span class="tag">ASP.NET Web Forms</span>
+          <span class="tag">ASP.NET MVC/Core</span>
+          <span class="tag">Java</span>
+          <span class="tag">Python</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Node.JS</span>
+          <span class="tag">Worker Services</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Frontend &amp; Mobile</h4>
+        <div class="tags">
+          <span class="tag">Angular (v2+)</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">.NET MAUI</span>
+          <span class="tag">Xamarin</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Data &amp; Integration</h4>
+        <div class="tags">
+          <span class="tag">SQL Server / T-SQL</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">REST APIs / JSON</span>
+          <span class="tag">RabbitMQ</span>
+          <span class="tag">Stored Procedures</span>
+          <span class="tag">SSRS</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Tools &amp; DevOps</h4>
+        <div class="tags">
+          <span class="tag">Git / GitHub / GitLab</span>
+          <span class="tag">Visual Studio</span>
+          <span class="tag">VS Code</span>
+          <span class="tag">IIS</span>
+          <span class="tag">Windows Server</span>
+          <span class="tag">ServiceNow</span>
+          <span class="tag">AI-Assisted Dev (Claude)</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Methodologies</h4>
+        <div class="tags">
+          <span class="tag">SOLID Principles</span>
+          <span class="tag">Design Patterns</span>
+          <span class="tag">ERP Integration (QAD)</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Key Traits</h4>
+        <div class="tags">
+          <span class="tag">Analytical Ability</span>
+          <span class="tag">Problem Solving</span>
+          <span class="tag">Responsibility</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Professional Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <div class="job-title">Sr. Analyst IT Development</div>
+          <div class="job-company">Visteon &nbsp;·&nbsp; <span class="job-location">Chihuahua City, Chihuahua</span></div>
+        </div>
+        <div class="job-date">2022 — Present</div>
+      </div>
+      <ul>
+        <li>Perform full-stack web application development focused on warehouse operations and administrative systems; provide end-to-end support via ServiceNow tickets across multiple global plant locations.</li>
+        <li>Key contributor in the development and evolution of an in-house <strong>Warehouse Management System (WMS)</strong> deployed across multiple Visteon facilities globally, covering material traceability, <strong>FIFO inventory control</strong>, and automated storage operations.</li>
+        <li>Design and develop <strong>REST API middleware</strong> acting as integration layer between <strong>SAP EWM</strong> and automated storage systems (<strong>Modula, HANEL</strong>), enabling Putaway and Picking workflows with real-time data exchange.</li>
+        <li>Build and maintain <strong>.NET Worker Services</strong> for background processing of warehouse transactions, asynchronous messaging via <strong>RabbitMQ</strong>, and automated material flow orchestration.</li>
+        <li>Create and optimize complex <strong>T-SQL stored procedures and queries</strong> supporting inventory tracking, FIFO control, and operational reporting across enterprise SQL Server databases.</li>
+        <li>Develop mobile applications using <strong>.NET MAUI / Xamarin</strong> for warehouse management workflows, including internationalization and offline capabilities.</li>
+        <li>Generate operational reports using <strong>SSRS</strong> and Excel-based automation tools; integrate with <strong>QAD ERP</strong> to ensure accurate production and inventory data flow.</li>
+        <li>Led on-site system deployment and go-live support at the <strong>Portugal facility</strong>, ensuring seamless cross-facility WMS integration and user adoption.</li>
+        <li>Deploy and maintain applications on <strong>IIS / Windows Server</strong>; apply SOLID principles and design patterns to ensure scalable, maintainable codebases.</li>
+        <li>Leverage <strong>AI-assisted development tools</strong> (Claude) to accelerate delivery of backend services, API integrations, and SQL optimizations.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <div class="job-title">IT Technician</div>
+          <div class="job-company">Grupo TOMZA &nbsp;·&nbsp; <span class="job-location">Ciudad Juárez, Chihuahua</span></div>
+        </div>
+        <div class="job-date">2020 — 2022</div>
+      </div>
+      <ul>
+        <li>Provided technical support to staff on hardware and software issues; administered <strong>SQL Server</strong> and <strong>CONTPAQi</strong> systems including preventive maintenance and backup management.</li>
+        <li>Developed administrative applications for <strong>XML parsing</strong> and automated data consolidation into Excel reports, reducing manual processing time.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section">
+    <div class="section-title">Education</div>
+    <div class="edu-header">
+      <div>
+        <div class="edu-degree">Information Technology Engineer</div>
+        <div class="edu-school">Universidad Tecnológica de Ciudad Juárez &nbsp;·&nbsp; Ciudad Juárez, Chihuahua</div>
+      </div>
+      <div class="job-date">April 2020</div>
+    </div>
+    <div class="edu-desc">Professional focus on decision-making for evolving information systems, software engineering, technological innovation, and feasibility evaluation. Experienced in collaborative large-scale software projects under variable requirements and diverse standards.</div>
+  </div>
+
+  <!-- LANGUAGES -->
+  <div class="section">
+    <div class="section-title">Languages</div>
+    <div class="lang-row">
+      <div class="lang-item"><span class="lang-badge">Español</span> Nativo</div>
+      <div class="lang-item"><span class="lang-badge">English</span> Professional proficiency</div>
+    </div>
+  </div>
+
+</div><!-- /page -->
+
+</body>
+</html>
